@@ -9,7 +9,7 @@
     node server.js
     ```
 
-1. Navigate to the `http://localhost:4000/graphql` URL
+1. Navigate to the `http://localhost:4000/graphql` in a browser window
 
 ### Queries
 

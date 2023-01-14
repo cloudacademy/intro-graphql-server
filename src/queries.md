@@ -31,7 +31,7 @@ query getSingleUser($userId: Int!){
 
 ```
 {
-  "id": 3
+  "userId": 3
 }
 ```
 
@@ -49,7 +49,7 @@ mutation updateUserAge($id: Int!, $age: Int!) {
 
 ```
 {
-  "id": 2,
+  "id": 1,
   "age": 30
 }
 ```
