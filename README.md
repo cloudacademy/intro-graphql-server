@@ -2,7 +2,12 @@
 
 ### Starting the server locally
 
-1. From this repo's root directory, run `node server.js`
+1. Clone and `cd` into this repository, then run the following:
+
+    ```
+    npm install
+    node server.js
+    ```
 
 1. Navigate to the `http://localhost:4000/graphql` URL
 
