@@ -39,12 +39,12 @@ const createUser = function(args) {
         }
     });
 
-    newUser =   {
+    const newUser =   {
         id: id,
         name: name,
         age: age,
         isManager: isManager
-    },
+    };
     usersData.push(newUser)
     
     return usersData.filter(user => user.id === id)[0];
